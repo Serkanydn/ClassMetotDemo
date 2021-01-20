@@ -9,7 +9,7 @@ namespace ClassMetotDemo
         public void Added(Customer customer)
         {
             Console.WriteLine("---------- Müşteri Ekleme Sistemi ----------");
-            Console.WriteLine(customer.Id + " : Idli Müşteri Eklendi.");
+            Console.WriteLine(customer.name + " : İsimli Müşteri Eklendi.");
             Console.WriteLine("                                            ");
 
         }
@@ -28,7 +28,7 @@ namespace ClassMetotDemo
         public void Deleted(Customer customer)
         {
             Console.WriteLine("---------- Müşteri Silme Sistemi ----------");
-            Console.WriteLine(customer.Id + " : Idli Müşteri Silindi.");
+            Console.WriteLine(customer.name + " : İsimli Müşteri Silindi.");
             Console.WriteLine("                                            ");
 
         }

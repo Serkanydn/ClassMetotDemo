@@ -30,6 +30,12 @@ namespace ClassMetotDemo
             customer4.surName = "Tarhan";
             customer4.age = 32;
 
+            Customer customer5 = new Customer { };
+            customer4.Id = 5;
+            customer4.name = "Volkan";
+            customer4.surName = "Aydın";
+            customer4.age = 36;
+
             Customer[] customer = new Customer[] {customer1,customer2,customer3,customer4 };
 
             CustomerManager customerManager = new CustomerManager { };
